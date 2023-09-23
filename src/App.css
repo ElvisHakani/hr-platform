@@ -1,0 +1,8 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+    height: 100vh;
+    max-height: 100vh;
+}
+

@@ -1,0 +1,28 @@
+.Header{
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.Header button{
+    border: 0;
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.Header button:hover{
+    background-color: rgb(255, 85, 85);
+}
+.Header button:active{
+    background-color: white;
+    color: black;
+}
+    

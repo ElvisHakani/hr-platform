@@ -1,0 +1,69 @@
+.Dashboard{
+    display: flex;
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+
+.Dashboard aside{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    background-color: lightgray;
+}
+
+
+aside .list::-webkit-scrollbar{
+    display: none;
+}
+
+aside .list{
+    overflow-y: auto;
+    flex-grow: 1;
+    height: 0;
+}
+
+.list .job{
+    height: 55px;
+    border: 1px solid gray;
+    margin: 7px 10px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.job h4{
+    margin: 0;
+    font-size: 15px;
+}
+
+
+
+.job p{
+    margin: 0;
+    font-size: 11px;
+}
+
+aside a{
+    text-decoration: none;
+    color: #444;
+}
+
+a.active .job{
+    background-color: dodgerblue;
+    color: white;
+}
+
+aside button{
+    padding: 10px 15px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Dashboard main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #eee;
+}

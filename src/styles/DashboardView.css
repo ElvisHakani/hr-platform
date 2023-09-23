@@ -1,0 +1,7 @@
+.DashboardView{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    flex-grow: 1;
+    max-height: 100%;
+}
